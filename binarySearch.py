@@ -8,7 +8,7 @@ def binarysearch(key,list1,begin,end,mid):
         return None
     if (begin == end and key == list1[mid]):
         print(begin)
-    if (key == list1[mid]):
+    elif (key == list1[mid]):
         print(mid)
     elif (key < list1[mid]):
         end = mid-1
