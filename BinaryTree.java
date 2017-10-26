@@ -51,7 +51,7 @@ public class BinaryTree implements Comparator{
     public Node removeNode(Object value){
         return null;
     }
-
+    //I only want String and Integer values in my Binary search tree
     @Override
     public int compare(Object o1, Object o2) {
         int a = 0;
